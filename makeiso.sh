@@ -7,7 +7,7 @@ function iso {
     ARG=$1
     EXT='.iso'
     fname="${ARG%.*}"
-    genisoimage -o $fname$EXT $ARG
+    mkisofs -o $fname$EXT $ARG
 }
 
 function syntax {
