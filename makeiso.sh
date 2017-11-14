@@ -1,7 +1,5 @@
 #!/bin/bash
-
-# Script make iso from file or folder (parameter ARG). Require genisoimage utility.
-# 25.10.2017
+# Script make iso from file or folder (parameter ARG).
 
 function iso {
     ARG=$1
